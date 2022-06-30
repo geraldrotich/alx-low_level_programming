@@ -1,1 +1,1 @@
-This is the first directory 
+This is a directory on the gcc compilation process 
