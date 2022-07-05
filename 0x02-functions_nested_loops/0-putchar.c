@@ -1,21 +1,23 @@
 #include "main.h"
 /**
- * main - main function
+ * main - prints Putchar
  *
- * Return: End program
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-	char string[8] = "_putchar";
-	int n = 0;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	while (n < 8)
-	{
-		_putchar(string[n]);
-		++n;
-	}
-
-	_putchar(10);
 	return (0);
-
 }
